@@ -1,0 +1,15 @@
+package Collections;
+import java.util.*;
+public class Demo {
+	public static void main(String[] args) {
+		HashMap<Integer,String> map = new HashMap<>(Map.of(0,"A",1,"B",2,"c"));
+		map.put(101,"Ram");
+		map.put(102,"Abi");
+		System.out.println(map);
+		map.remove(102);
+		System.out.println(map.containsKey(101));
+		System.out.println(map.containsValue("jothi"));
+		System.out.println(map);
+	}
+
+}

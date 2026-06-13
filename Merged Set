@@ -1,0 +1,18 @@
+package Program;
+import java.util.*;
+public class Program3 {
+	public static void main(String[] args) {
+		LinkedHashSet<Integer> set1 = new LinkedHashSet<>();
+		set1.add(10);
+		set1.add(20);
+		set1.add(30);
+		LinkedHashSet<Integer> set2 = new LinkedHashSet<>();
+		set2.add(10);
+		set2.add(50);
+		set2.add(60);
+		set1.addAll(set2);
+		System.out.println("Merged set");
+		System.out.println(set1);
+	}
+
+}

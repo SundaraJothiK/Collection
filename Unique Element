@@ -1,0 +1,14 @@
+package Program;
+import java.util.*;
+public class Program4 {
+	public static void main(String[] args) {
+		        int arr[] = {10, 20, 10, 30, 20, 40, 50, 40};
+		        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+		        for(int num : arr) {
+		            set.add(num);
+		        }
+		        System.out.println("Unique Elements: " + set);
+		        System.out.println("Count of Unique Elements: " + set.size());
+		 }
+}
+
